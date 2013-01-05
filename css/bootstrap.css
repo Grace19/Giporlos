@@ -6054,13 +6054,13 @@ a.badge:hover {
 ul.nav-pills {
 	margin: 18px auto;
 	width:422px;
-	margin-top: 109px;
-	font-family: Helvetica, sans-serif;
+	margin-top: 32px;
+	font-family: Impact, sans-serif;
 }
 
 .content {
 	overflow:hidden;
-	margin:54px 0 10px 0;
+	margin:67px 0 10px 0;
 	background-color: yellow;
 }
 
@@ -6085,10 +6085,6 @@ div.image3 {
 	text-align:center;	
 }
 
-p {
- width: 400px;
-}
-
 div.contentinfo{
 	overflow: hidden;
 	margin: 30px 0 10px 0;
@@ -6099,6 +6095,17 @@ div.contentinfo{
 header {
 	margin-top: 50px;
 	background:url("../img/headerbg.png") no-repeat 0px -48px;
-	height: 300px;
+	height: 181px;
 }
 
+img {
+	width: 340px;
+	margin: 77px;
+}
+
+p {
+ width: 400px;
+ margin-left: 40px;
+ margin-top: 115px;
+ 
+}
