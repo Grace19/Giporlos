@@ -226,8 +226,7 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 20px;
-  color: #333333;
-	background: url("../img/headerbar.png") repeat-x;
+	background: url("../img/headerbar.png") repeat-x #92acbb;
 }
 
 a {
@@ -749,9 +748,7 @@ h1 {
   font-size: 38.5px;
 }
 
-h2 {
-  font-size: 31.5px;
-}
+
 
 h3 {
   font-size: 24.5px;
@@ -4029,22 +4026,6 @@ input[type="submit"].btn.btn-mini {
   border-bottom-color: transparent;
 }
 
-.nav-pills > li > a {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  margin-top: 2px;
-  margin-bottom: 2px;
-  -webkit-border-radius: 5px;
-     -moz-border-radius: 5px;
-          border-radius: 5px;
-					color: #193646;
-}
-
-.nav-pills > .active > a,
-.nav-pills > .active > a:hover {
-  color: #FCA026;
-  background-color: #015e91;
-}
 
 .nav-stacked > li {
   float: none;
@@ -6052,38 +6033,22 @@ a.badge:hover {
 }
 
 ul.nav-pills {
-	margin: 18px auto;
-	width:422px;
-	margin-top: 32px;
-	font-family: Impact, sans-serif;
+	margin: 27px auto 0 auto;
+	width:580px;
+	font-family: 'Asap', sans-serif;
+	font-weight:bold;
+	font-size:1.3em;
+	text-transform:uppercase;
+	text-shadow:1px 0.5px 2px #000;
 }
+
+
 
 .content {
 	overflow:hidden;
-	margin:67px 0 10px 0;
-	background-color: yellow;
+	margin:80px 0 10px 0;
 }
 
-div.image {
-	width:300px;
-	height:200px;
-	background:#D7D7D7;
-	text-align:center;	
-}
-
-div.image2 {
-	width:300px;
-	height:200px;
-	background:#D7D7D7;
-	text-align:center;
-} 
-
-div.image3 {
-	width:300px;
-	height:200px;
-	background:#D7D7D7;
-	text-align:center;	
-}
 
 div.contentinfo{
 	overflow: hidden;
@@ -6104,8 +6069,47 @@ img {
 }
 
 p {
- width: 400px;
- margin-left: 40px;
- margin-top: 115px;
  
+ 
+}
+
+.nav-pills > li > a {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+					color: #F9FBF9;
+}
+
+
+.nav-pills li > a:hover {
+  color: #F7A113;
+  background-color: #042A4D;
+}
+
+.light {
+  background:#d4dfe4;
+  box-shadow:0px 0px 16px #4D4D4D;
+}
+
+.light p {
+  width: 400px;
+  margin:18px 30px 0 0;
+  text-indent:32px;
+}
+
+.light h2 {
+  margin:95px 130px 0 0;
+}
+
+h2 {
+  font-size: 28px;
+  color:#032C4F;
+  font-family:'Asap', sans-serif;
+  font-style:italic;
+  text-shadow:2px 1px 2px white;
+  
 }
