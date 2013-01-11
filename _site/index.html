@@ -3,37 +3,40 @@
   <head>
     <meta charset="utf-8">
     <title>Inspection, Testing & Consultancy Services</title>
-     <link href="css/bootstrap.css" rel="stylesheet">    
+     <link href="css/bootstrap.css" rel="stylesheet">  
+     <link href='http://fonts.googleapis.com/css?family=Asap:400,700' rel='stylesheet' type='text/css'> 
+     <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+     <script type="text/javascript" src="js/scroll.js"></script>
   </head>
   
   <body>
     <div class="container">
-      <img src="logo1.png" alt="logo">
-      <ul class="nav nav-pills">
-        <li class="active">
-          <a href="#">Service 1</a>
-        </li>
-        <li><a href="#">Service 2</a></li>
-        <li><a href="#">Service 3</a></li>
-        <li><a href="#">Service 4</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-      <div class="content">
-        <div class="image pull-left">image</div>
+      <header>
+        <img src="img/logo1.png" class="center" title="Inspection Testing & Consultancy Services">
+        <ul class="nav nav-pills">
+          <li><a href="#ndt" class="scrollPage">NDT</a></li>
+          <li><a href="#welding_inspection" class="scrollPage">Welding Inspection</a></li>
+          <li><a href="#quality_control" class="scrollPage">QA/QC</a></li>
+          <li><a href="#manpower" class="scrollPage">Manpower</a></li>
+          <li><a href="#contact" class="scrollPage">Contact</a></li>
+        </ul>
+      </header>
+      
+            <div id="ndt" class="content light">
+        <img src="img/image1.png" class="pull-left" alt="Variety of NDT Services" title="We provide NDT Services">
+        <h2 class="pull-right">Non-Destructive Testing</h2>
         <p class="pull-right">
-          gravida at eget metus. Maecenas faucibus mollis interdum."
-          "Morbi leo risus, porta ac consectetur ac, vestibulum at eros. 
-          Cras mattis consectetur purus sit amet fermentum."
-          "Maecenas sed diam eget risus varius blandit sit amet non magna."
-          gravida at eget metus. Maecenas faucibus mollis interdum."
-          "Morbi leo risus, porta ac consectetur ac, vestibulum at eros. 
-          Cras mattis consectetur purus sit amet fermentum."
-          "Maecenas sed diam eget risus varius blandit sit amet non magna."
+          NDT is a wide group of analysis techniques used in science and 
+          industry to evaluate the properties of a material, component or 
+          system without causing damage. The terms Nondestructive examination
+          (NDE), Nondestructive inspection (NDI), and Nondestructive evaluation 
+          (NDE) are also commonly used to describe this technology.
         </p>
       </div><!-- end .content -->  
       
-      <div class="content">
-        <div class="image pull-right">image2</div>
+      <div id="welding_inspection" class="content dark">
+        <img src="img/image2.png" class="pull-right" alt="Variety of NDT Services" title="We provide NDT Services">
+        <h2 class="pull-left">Welding Inspection</h2>
         <p class="pull-left">
           gravida at eget metus. Maecenas faucibus mollis interdum."
           "Morbi leo risus, porta ac consectetur ac, vestibulum at eros. 
@@ -45,8 +48,9 @@
         </p>
       </div><!-- end .content -->
         
-      <div class="content">
-        <div class="image pull-left">image</div>
+      <div id="quality_control" class="content lightqa">
+        <img src="img/image3.png" class="pull-left" alt="Variety of NDT Services" title="We provide NDT Services">
+        <h2 class="pull-right">Quality Assurance and Quality Control</h2>
           <p class="pull-right">
             gravida at eget metus. Maecenas faucibus mollis interdum."
             "Morbi leo risus, porta ac consectetur ac, vestibulum at eros. 
@@ -59,8 +63,9 @@
           </p>
       </div><!-- end .content -->
         
-      <div class="content">
-        <div class="image pull-right">image4</div>
+      <div id="manpower" class="content darkmnp">
+        <img src="img/image4.png" class="pull-right" alt="Variety of NDT Services" title="We provide NDT Services">
+        <h2 class="pull-left">Manpower</h2>
           <p class="pull-left">
             gravida at eget metus. Maecenas faucibus mollis interdum."
             "Morbi leo risus, porta ac consectetur ac, vestibulum at eros. 
@@ -72,7 +77,13 @@
           </p>
       </div><!-- end .content -->
       
-      <div class="content">
+      
+
+
+
+
+      
+      <div id="contact" class="contentinfo">
         <div class="pull-right">
         <label>Name:</label>
         <input type="text" name="Name"/>
@@ -86,18 +97,15 @@
         <p class="pull-left">
           Gravida at eget metus. Maecenas faucibus mollis interdum."
           "Morbi leo risus, porta ac consectetur ac, vestibulum at eros. 
-          Cras mattis consectetur purus sit amet fermentum."
+          Cras mattis consectetur purus sit amet ."
         </p>
       </div><!-- end .content -->
       
       <footer>
-        <p class="pull-right"><a href="#">Back to top</a>
-        </p>
-        <p>
-          © 2013 Company, Inc. ·"
-          <a href="#">Privacy</a> .
-          <a href="#">Terms</a>
-        </p>
+        <p class="btt pull-right"> <a class="scrollPage" href=".container">Back to top</a>
+          <p>
+          © 2013 Inspection Testing & Consultancy Services.
+          </p>
       </footer>
       </div>
     </div><!-- end .container -->

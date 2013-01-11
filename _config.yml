@@ -1,0 +1,7 @@
+auto: true
+environments:
+  production:
+    url: http://itcs.co
+    remote:
+      connection: rebel@rebelcolony.com
+      path: /var/www/apps
