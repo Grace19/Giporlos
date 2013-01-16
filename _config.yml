@@ -1,0 +1,7 @@
+auto: true
+environments:
+  production:
+    url: http://itcservices.co
+    remote:
+      connection: ssh -p 8888 rebel@rebelcolony.com
+      path: /var/www/apps
