@@ -1,5 +1,5 @@
 set :application,       'Giporlos'
-set :deploy_to,         "/var/www/apps"
+set :deploy_to,         "/var/www/apps/giporlos"
 set :repository,        '_site'
 set :scm,               :git
 set :deploy_via,        :copy
