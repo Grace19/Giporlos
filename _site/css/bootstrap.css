@@ -1115,7 +1115,7 @@ input[type="color"],
      -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
        -o-transition: border linear 0.2s, box-shadow linear 0.2s;
           transition: border linear 0.2s, box-shadow linear 0.2s;
-width: 161px;
+
 }
 
 textarea:focus,
@@ -1587,6 +1587,8 @@ input[type="checkbox"][readonly] {
   background-color: #d9edf7;
   border-color: #3a87ad;
 }
+
+
 
 input:focus:invalid,
 textarea:focus:invalid,
@@ -6108,6 +6110,14 @@ h2 {
   text-shadow:2px 1px 2px white;
 }
 
+h2.inverted {
+  font-size: 28px;
+  color:#E5E5E5;
+  font-family:'Asap', sans-serif;
+  font-style:italic;
+  text-shadow:2px 1px 2px #000;
+}
+
 .dark {
   background:#cfebf5;
   box-shadow:0px 0px 16px #4D4D4D;
@@ -6168,6 +6178,7 @@ p {
 footer p {
 	margin-top: -35px;
 	width: 327px;
+	font-size:11px;
 }
 
 .contactbox {
@@ -6176,6 +6187,19 @@ footer p {
 }
 
 .btt {
-	margin-right: -106px;
-	margin-top: 1px;
+	font-size: 11px;
+	margin-top: 3px;
+
+}
+
+div.footertext {
+	font-size: 11px;
+}
+
+#form1 {
+  border:1px solid #fff;
+}
+
+#header .info {
+  display:none;
 }

@@ -27,14 +27,25 @@
       
       <div id="contact" class="contentinfo">
         <div class="pull-right">
-        <label>Name:</label>
-        <input type="text" name="Name"/>
-        <label>Email:</label>
-        <input type="text" name="Email Address"/>
-        <label>Message:</label>
-        <textarea type="textarea"> </textarea>
-        <br>
-        <button type="submit" class="btn btn-success">Submit</button>
+          <h2 class="inverted">Contact Us</h2>
+          <div id="wufoo-z7x3p3">
+          Fill out my <a href="http://rebelcolony.wufoo.com/forms/z7x3p3">online form</a>.
+          </div>
+          <script type="text/javascript">var z7x3p3;(function(d, t) {
+          var s = d.createElement(t), options = {
+          'userName':'rebelcolony', 
+          'formHash':'z7x3p3', 
+          'autoResize':true,
+          'height':'497',
+          'async':true,
+          'header':'show', 
+          'ssl':true};
+          s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'wufoo.com/scripts/embed/form.js';
+          s.onload = s.onreadystatechange = function() {
+          var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+          try { z7x3p3 = new WufooForm();z7x3p3.initialize(options);z7x3p3.display(); } catch (e) {}};
+          var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+          })(document, 'script');</script>
       </div>
         <p class="pull-left">
           Gravida at eget metus. Maecenas faucibus mollis interdum."
@@ -46,7 +57,7 @@
       <footer>
         <p class="btt pull-right"> <a class="scrollPage" href=".container">Back to top</a>
           <p>
-          © 2013 Inspection Testing & Consultancy Services.
+          © 2013 Inspection Testing & Consultancy Services UK Ltd.
           </p>
       </footer>
       </div>
