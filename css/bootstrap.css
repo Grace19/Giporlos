@@ -6036,8 +6036,8 @@ a.badge:hover {
 }
 
 ul.nav-pills {
-	margin: 27px auto 0 auto;
-	width:600px;
+  margin: 27px 129px 0 auto;
+	width:630px;
 	font-family: 'Asap', sans-serif;
 	font-weight:bold;
 	font-size:1.3em;
