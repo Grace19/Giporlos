@@ -1115,7 +1115,7 @@ input[type="color"],
      -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
        -o-transition: border linear 0.2s, box-shadow linear 0.2s;
           transition: border linear 0.2s, box-shadow linear 0.2s;
-width: 161px;
+
 }
 
 textarea:focus,
@@ -6176,6 +6176,12 @@ footer p {
 }
 
 .btt {
-	margin-right: -106px;
-	margin-top: 1px;
+	font-size: 11px;
+	margin-top: 3px;
+
 }
+
+div.footertext {
+	font-size: 11px;
+}
+
